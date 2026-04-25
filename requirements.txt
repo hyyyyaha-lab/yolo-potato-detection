@@ -1,9 +1,7 @@
-# 指定Python版本兼容的依赖
-streamlit>=1.30.0
-ultralytics>=8.0.200
-opencv-python==4.8.1.78  # 换成Python3.14兼容的版本
-Pillow>=10.0.0
+streamlit==1.32.2
+ultralytics==8.1.0
+opencv-python==4.8.1.78
+pillow>=10.0.0
 numpy>=1.24.0
-# 新增必要依赖，避免ultralytics报错
-torch>=2.0.0
-torchvision>=0.15.0
+torch==2.1.0
+torchvision==0.16.0
