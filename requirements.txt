@@ -1,7 +1,8 @@
+# 极致轻量化，Streamlit免费服务器专用
 streamlit==1.32.2
 ultralytics==8.1.0
-opencv-python==4.8.1.78
+# 仅安装CPU最小版torch，不占服务器资源
+torch==2.0.0+cpu
+torchvision==0.15.1+cpu
+opencv-python-headless==4.8.1.78
 pillow>=10.0.0
-numpy>=1.24.0
-torch==2.1.0
-torchvision==0.16.0
